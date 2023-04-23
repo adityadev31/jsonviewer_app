@@ -1,0 +1,54 @@
+.jsonChild {
+  padding-left: 0.8rem;
+  margin: 0.5rem 0;
+}
+
+.jsonChild_wrapper {
+  animation: appear 1s;
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.jsonToggler_parent {
+  position: relative;
+}
+
+.jsonToggler {
+  position: absolute;
+  top: 0;
+  right: -70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  padding: 0;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: rgb(83, 135, 5);
+  color: white;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: all 0.3s ease;
+}
+
+.jsonToggler i {
+  padding: 0;
+  margin: 0;
+}
+
+.jsonToggler:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+.jsonToggler_up {
+  background-color: rgb(0, 149, 178);
+}

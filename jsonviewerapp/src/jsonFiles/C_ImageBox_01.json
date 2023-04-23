@@ -1,0 +1,29 @@
+[
+  {
+    "name": "ImageBox",
+    "id": "Bang Bang ID",
+    "properties": [
+      {
+        "displayName": "name1",
+        "extractorType": "Bang Type",
+        "dataType": "String",
+        "opened": false
+      }
+    ],
+    "children": [
+      {
+        "name": "Bang Child",
+        "id": "Bang Child ID",
+        "properties": [
+          {
+            "displayName": "child1",
+            "extractorType": "Bang Type",
+            "dataType": "String",
+            "opened": false
+          }
+        ],
+        "children": []
+      } 
+    ]
+  }
+]

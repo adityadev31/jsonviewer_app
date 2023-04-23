@@ -1,0 +1,27 @@
+.fileBrowser {
+  width: 300px;
+  height: 100%;
+  background-color: rgba(238, 238, 238, 0.765);
+  padding: 1rem;
+  overflow-y: scroll;
+}
+
+.fileBrowser-list {
+  width: 100%;
+  border: 1px solid #ccccccc8;
+  padding: 0.5rem 1rem;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  background: #e2e2e2b5;
+  transition: all 0.3s ease;
+}
+
+.fileBrowser-list.active,
+.fileBrowser-list:hover {
+  background-color: rgb(238, 149, 15);
+  border: 1px solid orange;
+  color: white;
+  scale: 1.1;
+  box-shadow: 0.3px 0.3px 12px rgba(0,0,0,0.2);
+}
